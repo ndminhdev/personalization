@@ -16,7 +16,7 @@ set hidden
 set nobackup
 set nowritebackup
 set mouse=a " enable mouse for all node
-set cmdheight=2
+set cmdheight=1
 
 set incsearch
 set hlsearch

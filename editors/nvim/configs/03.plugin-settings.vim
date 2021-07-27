@@ -8,22 +8,23 @@ let NERDTreeDirArrows = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 let g:NERDTreeChDirMode=2
-let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
+let g:NERDTreeIgnore=['\.git', '\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
 let g:NERDTreeShowBookmarks=1
 let g:NERDTreeShowHidden=1
 
-" Theme
+" Color Scheme
 syntax enable
 set background=dark
+let g:onedark_style = 'warmer'
 colorscheme onedark
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi EndOfBuffer guibg=NONE ctermbg=NONE
-let g:lightline = {
-  \ 'colorscheme': 'onedark'
-  \ }
 set termguicolors
+
+" Vim Airline
+let g:airline_theme='onedark'
 
 " Indent Guide
 let g:indentLine_setConceal = 2
@@ -41,3 +42,17 @@ let g:coc_global_extensions = ['coc-eslint', 'coc-tsserver', 'coc-emmet', 'coc-c
 
 " rainbow
 let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
+let g:rainbow_conf = {
+\    'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+\    'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'lightmagenta'],
+\    'guis': [''],
+\    'cterms': [''],
+\    'operators': '_,_',
+\    'separately': {
+\        '*': {},
+\        'markdown': {
+\            'parentheses_options': 'containedin=markdownCode contained'
+\        },
+\        'css': 0
+\    }
+\}

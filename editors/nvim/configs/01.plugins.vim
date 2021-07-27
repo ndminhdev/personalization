@@ -3,7 +3,8 @@ call plug#begin('~/.config/nvim/bundle')
 
 " Integrations
 Plug 'scrooloose/nerdtree' " nerdtree for vim
-Plug 'itchyny/lightline.vim' " status bar for vim
+Plug 'vim-airline/vim-airline' " vim airline statusbar
+Plug 'vim-airline/vim-airline-themes' " themes for vim airline
 Plug 'ryanoasis/vim-devicons' " add icons to nerdtree, airline
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " syntax highlighting for nerdtree
 Plug 'airblade/vim-gitgutter'
@@ -11,7 +12,7 @@ Plug 'tpope/vim-fugitive' " git wrapper for vim
 Plug 'tpope/vim-commentary' " commenting code with shortcuts
 
 " Code Display
-Plug 'joshdick/onedark.vim' " One Dark color scheme for vim
+Plug 'navarasu/onedark.nvim' " One Dark color scheme for vim
 Plug 'yggdroot/indentline' " Display identation levels
 Plug 'luochen1990/rainbow' " bracket colorizer for vim
 Plug 'ap/vim-css-color' " preview colors in source code

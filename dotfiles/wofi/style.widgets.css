@@ -1,0 +1,46 @@
+/*
+scheme: "Nord"
+author: "arcticicestudio"
+*/
+
+*{
+    font-family: UbuntuMono;
+}
+
+#window {
+    margin: 0px 5px 0px 5px;
+
+}
+
+#inner-box {
+    background-color: @back;
+
+}
+
+#outer-box {
+  margin: 5px;
+  padding:10px;
+  background-color: @back;
+  margin-top: -22px;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+
+#entry {
+
+}
+
+#entry:selected {
+    background-color: @base03;
+}
+
+#text:selected {
+}
+
