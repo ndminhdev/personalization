@@ -8,23 +8,24 @@ let NERDTreeDirArrows = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 let g:NERDTreeChDirMode=2
-let g:NERDTreeIgnore=['\.git', '\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
+let g:NERDTreeIgnore=['^.git$[[dir]]', '\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
 let g:NERDTreeShowBookmarks=1
 let g:NERDTreeShowHidden=1
 
 " Color Scheme
 syntax enable
 set background=dark
-let g:onedark_style = 'warmer'
-colorscheme onedark
+colorscheme onehalfdark
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi EndOfBuffer guibg=NONE ctermbg=NONE
 set termguicolors
 
-" Vim Airline
-let g:airline_theme='onedark'
+" Vim Lightline
+let g:lightline = {
+      \ 'colorscheme': 'onehalfdark',
+      \ }
 
 " Indent Guide
 let g:indentLine_setConceal = 2
