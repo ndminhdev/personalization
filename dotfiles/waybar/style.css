@@ -44,9 +44,9 @@ nord15 #b48ead
     color: #fafafa;
     border: 0;
     border-radius: 0;
-    font-family: FantasqueSansMono Nerd font;
+    font-family: Iosevka Nerd font;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
    }
 
 window#waybar {

@@ -49,7 +49,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- Additional Plugins
 lvim.plugins = {
-  {'joshdick/onedark.vim'},
+  {'neravasu/onedark.nvim'},
   {'ap/vim-css-color'},
   {'pangloss/vim-javascript'},
   {'isruslan/vim-es6'},
