@@ -11,6 +11,7 @@ Plug 'tpope/vim-fugitive' " git wrapper for vim
 Plug 'tpope/vim-commentary' " commenting code with shortcuts
 
 " Code Display
+Plug 'navarasu/onedark.nvim' " One Dark Theme for NeoVim >= 0.5
 Plug 'yggdroot/indentline' " Display identation levels
 Plug 'luochen1990/rainbow' " bracket colorizer for vim
 Plug 'ap/vim-css-color' " preview colors in source code

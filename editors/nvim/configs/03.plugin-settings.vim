@@ -15,7 +15,8 @@ let g:NERDTreeShowHidden=1
 " Color Scheme
 syntax enable
 set background=dark
-colorscheme onehalfdark
+let g:onedark_style = 'warm'
+colorscheme onedark
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
@@ -23,9 +24,9 @@ hi EndOfBuffer guibg=NONE ctermbg=NONE
 set termguicolors
 
 " Vim Lightline
-let g:lightline = {
-      \ 'colorscheme': 'onehalfdark',
-      \ }
+" let g:lightline = {
+"      \ 'colorscheme': 'onedark',
+"      \ }
 
 " Indent Guide
 let g:indentLine_setConceal = 2
