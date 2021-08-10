@@ -35,7 +35,7 @@ font-size:15px;
 
 #input {
 border: none;
-background-color: #555555;
+background-color: #464d5c;
 border-radius: 0px;
 margin: 4px 4px 8px 4px;
 padding: 8px;
@@ -44,11 +44,11 @@ padding: 8px;
 #inner-box {
 color: #fafafa;
 border-radius: 0px;
-background-color: #333333;
+background-color: #333842;
 }
 
 #outer-box {
-background-color: #2a2a2a;
+background-color: #333842;
 border-radius: 0px;
 border: 1px solid #4db6ac;
 padding: 10px;

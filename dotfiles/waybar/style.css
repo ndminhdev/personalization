@@ -1,61 +1,21 @@
-/* =============================================================================
- *
- * Waybar configuration
- *
- * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
- *
- * =========================================================================== */
-
-/* -----------------------------------------------------------------------------
- * Keyframes
- * -------------------------------------------------------------------------- */
-
-
-/*
-Polar Night
-nord0  #2e3440
-nord1  #3b4252
-nord2  #434c5e
-nord3  #4c566a
-Snow Storm
-nord4  #d8dee9
-nord5  #e5e9f0
-nord6  #eceff4
-Frost
-nord7  #8fbcbb
-nord8  #88c0d0
-nord9  #81a1c1
-nord10 #5e81ac
-Aurora
-nord11 #bf616a
-nord12 #d08770
-nord13 #ebcb8b
-nord14 #a3be8c
-nord15 #b48ead
-*/
-
-/* -----------------------------------------------------------------------------
- * Base styles
- * -------------------------------------------------------------------------- */
-
 /* Reset all styles */
 
 * {
     color: #fafafa;
     border: 0;
     border-radius: 0;
-    font-family: Iosevka Nerd font;
-    font-size: 14px;
-    font-weight: 600;
+    font-family: ComicMono Nerd Font;
+    font-size: 13px;
+    font-weight: bold;
    }
 
 window#waybar {
-  background: #2a2a2a;
+  background: #282c34;
 }
 
 #workspaces button {
   padding-right: 22px;
-  color: #555;
+  color: #556677;
 }
 
 #workspaces button.focused {
@@ -70,7 +30,7 @@ window#waybar {
 #clock, #battery, #cpu, #memory,#idle_inhibitor, #temperature,#custom-keyboard-layout, #backlight, #network, #pulseaudio, #mode, #tray, #window,#custom-launcher,#custom-power,#custom-pacman {
   padding-left: 10px;
   padding-right: 10px;
-  border-right: 1px solid #555;
+  border-right: 1px solid #445566;
 }
 
 /* -----------------------------------------------------------------------------
@@ -156,8 +116,8 @@ window#waybar {
 }
 
 #custom-launcher {
-  background-color: #dddddd;
-  color: #202020;
+  background-color: #ffffff;
+  color: #282c34;
 }
 
 #custom-power {
